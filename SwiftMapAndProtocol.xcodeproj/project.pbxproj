@@ -13,6 +13,7 @@
 		4241F699249DC20600BF2794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4241F697249DC20600BF2794 /* Main.storyboard */; };
 		4241F69B249DC20900BF2794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4241F69A249DC20900BF2794 /* Assets.xcassets */; };
 		4241F69E249DC20900BF2794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4241F69C249DC20900BF2794 /* LaunchScreen.storyboard */; };
+		4241F6A6249DC2C100BF2794 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4241F6A5249DC2C100BF2794 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4241F69A249DC20900BF2794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4241F69D249DC20900BF2794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4241F69F249DC20900BF2794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4241F6A5249DC2C100BF2794 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				4241F691249DC20600BF2794 /* AppDelegate.swift */,
 				4241F693249DC20600BF2794 /* SceneDelegate.swift */,
 				4241F695249DC20600BF2794 /* ViewController.swift */,
+				4241F6A5249DC2C100BF2794 /* NextViewController.swift */,
 				4241F697249DC20600BF2794 /* Main.storyboard */,
 				4241F69A249DC20900BF2794 /* Assets.xcassets */,
 				4241F69C249DC20900BF2794 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4241F696249DC20600BF2794 /* ViewController.swift in Sources */,
+				4241F6A6249DC2C100BF2794 /* NextViewController.swift in Sources */,
 				4241F692249DC20600BF2794 /* AppDelegate.swift in Sources */,
 				4241F694249DC20600BF2794 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.adachi.SwiftMapAndProtocol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.adachi.SwiftMapAndProtocol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
